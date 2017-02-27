@@ -17,5 +17,19 @@
   </dependencies>
   <build>
     <finalName>webapp</finalName>
+    <plugins>
+    	<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<version>2.2</version>
+			<configuration>
+				<port>9090</port>
+				<path>/webapp</path>
+				<uriEncoding>UTF-8</uriEncoding>
+				<finalName>webapp</finalName>
+				<server>tomcat7</server>
+			</configuration>
+		</plugin>
+    </plugins>
   </build>
 </project>
