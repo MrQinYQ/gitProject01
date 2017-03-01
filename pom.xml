@@ -28,6 +28,7 @@
 				<uriEncoding>UTF-8</uriEncoding>
 				<finalName>webapp</finalName>
 				<server>tomcat7</server>
+				<url>http://127.0.0.1:8081/manager/text</url>
 			</configuration>
 		</plugin>
     </plugins>
